@@ -1,0 +1,86 @@
+*{
+    font-family:'Playfair Display',serif;
+}
+body
+{
+    margin:0;
+    padding:0;
+}
+
+/* This is the navigation bar (top and bottom) style section */
+
+.navBar
+{
+    position: relative;
+    top:0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    width: 100%;
+} 
+
+.navBar li a
+{
+    float: left; 
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    width: 20vw;
+}
+
+.navBar li a:hover
+{
+    background-color: green;
+    color:black;
+}
+
+.navBarBottom
+{
+    bottom:0;
+    position:fixed;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    width: 100%;
+} 
+
+.navBarBottom li a
+{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    width: 20vw;
+}
+
+.navBarBottom li a:hover
+{
+    background-color: green;
+    color: black;
+}
+
+.splitRight
+{
+    margin-right: auto;
+    background-color: blue;
+}
+
+.splitLeft
+{
+    margin-left: auto;
+}
+
+/* This is the contact form style section */
+.contactForm
+{
+    margin: 50vw 50vw;
+}
