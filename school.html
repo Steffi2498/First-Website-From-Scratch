@@ -1,3 +1,13 @@
+<!-- THINGS I STILL NEED TO DO HERE
+1. CREATE A FILTER USING JS TO BE ABLE TO FILTER THROUGH THE SEMESTERS BY YEAR OR BY TITLE (FALL, WINTER, SUMMER)
+2. FIND A WAY TO OPEN A MODAL PAGE ONCE YOU CLICK "DIVE DEEPER" THAT WILL LET YOU CHOOSE THE CLASS YOU WISH TO HAVE OPEN OOOOOORRRRRR
+THE DIVE DEEPER BUTTON COULD ALSO OPEN A PAGE TITLE FALL 2023 FOR INSTANCE AND ON THAT PAGE THERE'S A BRIEF INTRO TO WHAT EACH COURSE COVERS (AND MAYBE INSERT A MINDMAP
+HERE AS WELL) AND ON THE LEFT HAND SIDE THERE'S A SIDE MENU (WITH THE CLASS TITLES) THAT WHEN YOU CLICK AN OPTION OPENS THE NOTES FOR THAT CLASS
+
+https://www.youtube.com/results?search_query=html%2Fcss%2Fjavascript+side+menu+bar+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>  
@@ -9,7 +19,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>School</title>
 </head>
-<body>
+<body class="pageSchool">
+    <!-- Top navigation bar -->
     <div>
         <ul class = "navBar">
             <li> <a href = "main.html">Home</a></li>
@@ -18,7 +29,69 @@
             <li> <a href = "projects.html">Projects</a></li>
         </ul>
     </div>
-    <h1> WELCOME TO THE SCHOOL PAGE</h1>
+
+    <div class="section">
+        <div class="pageTitle">
+            <h1> NOTES </h1>
+        </div>
+        <div class="semesters">
+            <div class = "cards">
+                <h2>Fall 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class="cards">
+                <h2>Winter 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class="cards">
+                <h2>Fall 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Winter 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Summer 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Fall 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Winter 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Fall 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Winter 2026</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+            <div class = "cards">
+                <h2>Fall 2026</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo hic, magnam ad blanditiis omnis exercitationem, et fuga eius quibusdam amet molestias qui sunt excepturi explicabo architecto cumque, molestiae voluptate.</p>
+                <a href="" class="button">Dive deeper</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bottom navigation bar  -->
     <div>
         <ul class="navBarBottom">
             <li class="splitLeft"><a href = "contact.html">Contact Me</a></li>
