@@ -4,32 +4,49 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>  
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Contact Me</title>
-</head>
-<body>
-    <div>
-        <ul class = "navBar">
-            <li> <a href = "main.html">Home</a></li>
-            <li> <a href = "school.html">School</a></li>
-            <li> <a href = "internships.html">Internships</a></li>
-            <li> <a href = "projects.html">Projects</a></li>
-        </ul>
-    </div>
-    <!-- <form class="contactForm">
-        <label>Hi</label>
+    <head>  
 
-    </form>> -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap" rel="stylesheet">
+        
+        <!-- CSS stylesheet  -->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+        <!-- Boxicons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+        <!-- remixicons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    
+        <!-- Page title  -->
+        <title>Contact Me</title>
+    
+    </head>
+<body>
+
+    <!-- Top navigation bar -->
+    <div class = "navBar">
+        <!-- <li><a href = "main.html">Home</a></li> -->
+        <h2 class="logo">STEFFI BAPTISTE</h2>
+        <a href="main.html" class="navElement"><i class="ri-home-4-line"></i></a> <!--home logo-->
+        <a href = "school.html" class="navElement">School</a>
+        <a href = "internships.html" class="navElement">Internships</a>
+        <a href = "#" class="navElement">Projects</a>
+    </div>
+
+    <!-- Bottom navigation bar  -->
     <div>
         <ul class="navBarBottom">
-            <li class="splitLeft"><a href = "#">Contact Me</a></li>
-            <li class="splitRight"><a href="https://www.linkedin.com/in/steffi-baptiste-656394293" >LinkedIn</a></li>
+            <li id="splitLeft"><a href = "#">Contact Me</a></li>
+            <span>
+                <li id="splitRight"><a href="https://github.com/Steffi2498"><i class="ri-github-line"></i></a></li>
+                <li id="splitRight"><a href="https://www.linkedin.com/in/steffi-baptiste-656394293" ><i class="ri-linkedin-fill"></i></a></li>
+            </span>
         </ul>
     </div>
 </body>

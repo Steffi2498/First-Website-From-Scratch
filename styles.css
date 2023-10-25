@@ -22,82 +22,124 @@ body
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
     background-color: black;
     width: 100%;
+    align-items:center;
 } 
 
-.navBar li a
+.navElement, .home
 {
-    float: left; 
+    /* background-color: red; */
     display: block;
     color:white;
     text-align: center;
     text-decoration: none;
-    padding: 15px 15px;
-    width: 20vw;
+    padding: 30px 40px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
-.navBar li a:hover
+.home
 {
-    background-color: green;
-    color:black;
-    transition: color 1s, background-color 1s;
-    
+    transform: scale(1.3);
+}
+
+.ri-home-4-line:hover
+{
+    text-decoration: underline green;
+    text-decoration-thickness: 3px;
+    padding: 10px;
+    transition: all .50s ease;
+}
+
+.navElement:hover
+{
+    text-decoration: underline green;
+    text-decoration-thickness: 3px;
+    border-radius: 50%;
+    width: fit-content;
+    transition: all .50s ease;
+    transform: translateX(-10px);
+}
+
+.logo
+{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 0;
+    letter-spacing: 0.8em;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    width: fit-content;
 }
 
 .navBarBottom
 {
+    position: relative;
     bottom:0;
-    position:relative;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow: hidden;
     background-color: black;
     width: 100%;
+    align-items:center;
 } 
 
 .navBarBottom li a
 {
+    float: left;
     display: block;
     color:white;
     text-align: center;
     text-decoration: none;
-    padding: 15px 15px;
-    width: 20vw;
+    padding: 30px 40px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
-.navBarBottom li a:hover
+span
 {
-    background-color: green;
-    color: black;
-    transition: color 1s, background-color 1s;
-}
-
-.splitRight
-{
-    margin-right: auto;
-    background-color: blue;
-}
-
-.splitLeft
-{
+    display: flex;
     margin-left: auto;
 }
 
+#splitRight
+{
+    transform: scale(1.3);
+}
 
+.ri-linkedin-fill:hover, .ri-github-line:hover
+{
+    color:steelblue;
+    border-radius: 30%;
+    border: 1px solid steelblue;
+    padding: 0.8px;
+}
+
+#splitRight:hover
+{
+    -webkit-animation: bounce .4s ease infinite alternate;
+
+}
+
+@-webkit-keyframes bounce {
+    0%{    }
+    100%{
+        transform:translateY(-20px);
+        transform: scale(1.5);
+    }
+}
 
 /* This is the contact form style section */
 .contactForm
 {
     margin: 50vw 50vw;
 }
-
-
-
-
 
 /* This is the internships style section */
 
@@ -214,4 +256,13 @@ body
     background-color: #Caded6;
     opacity: 1.0;
     box-shadow: 1px 1px 10px 5px rgba(17, 136, 20, 0.8);
+}
+
+/* This is the main page style section */
+.imageMain img
+{
+    display: flex;
+    margin-left: auto;
+    transform: scale(2);
+
 }
