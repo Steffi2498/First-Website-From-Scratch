@@ -259,10 +259,3 @@ span
 }
 
 /* This is the main page style section */
-.imageMain img
-{
-    display: flex;
-    margin-left: auto;
-    transform: scale(2);
-
-}
