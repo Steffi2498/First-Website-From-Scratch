@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+
+.parent{
+    display:grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+}
+
+.navBar{
+    background-color: red;
+    width: 10vw;
+}
+.child2{
+    background-color: blue;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.a{
+    background-color: green;
+    color:black;
+    display: grid;
+    justify-content: center;
+    align-content: center; /*vertical align center*/
+
+}
+.b{
+    background-color: yellow;
+    color:black;
+
+}
+.c{
+    background-color: lightblue;
+    color:black;
+
+}
+
+.d{
+    background-color: pink;
+    color:black;
+
+}
